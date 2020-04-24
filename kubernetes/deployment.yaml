@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-lab04
-          image: ejgo/frontend-ejgo
+          image: ejgo/front-service
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
